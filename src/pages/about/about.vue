@@ -12,7 +12,7 @@
     :style="{ marginTop: safeAreaInsets?.top + 'px' }"
   >
     <view class="text-center text-3xl mt-8">
-      鸽友们好，我是weibangluo，一名前端开发者。
+      鸽友们好，我是weibangluo，kaifaban。
       <text class="text-red-500">菲鸽</text>
     </view>
     <RequestComp />
