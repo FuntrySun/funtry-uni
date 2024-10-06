@@ -1,0 +1,219 @@
+{
+  "globalStyle": {
+    "navigationStyle": "default",
+    "navigationBarTitleText": "unibest",
+    "navigationBarBackgroundColor": "#f8f8f8",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#FFFFFF"
+  },
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      "^wd-(.*)": "wot-design-uni/components/wd-$1/wd-$1.vue",
+      "^(?!z-paging-refresh|z-paging-load-more)z-paging(.*)": "z-paging/components/z-paging$1/z-paging$1.vue"
+    }
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#5C69C9",
+    "backgroundColor": "#F6F7F9",
+    "height": "50px",
+    "fontSize": "10px",
+    "iconWidth": "24px",
+    "spacing": "3px",
+    "list": [
+      {
+        "iconPath": "static/tabbar/indexno.png",
+        "selectedIconPath": "static/tabbar/index.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "iconPath": "static/tabbar/funnono.png",
+        "selectedIconPath": "static/tabbar/funun.png",
+        "pagePath": "pages/functionDesk/index",
+        "text": "功能台"
+      },
+      {
+        "iconPath": "static/tabbar/meno.png",
+        "selectedIconPath": "static/tabbar/me.png",
+        "pagePath": "pages/my/index",
+        "text": "我的"
+      }
+    ]
+  },
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "type": "home",
+      "layout": "tabbar",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "首页"
+      }
+    },
+    {
+      "path": "pages/about/about",
+      "type": "page",
+      "style": {
+        "navigationBarTitleText": "关于"
+      }
+    },
+    {
+      "path": "pages/functionDesk/index",
+      "type": "page",
+      "layout": "tabbar",
+      "style": {
+        "navigationBarTitleText": "功能台"
+      }
+    },
+    {
+      "path": "pages/login/index",
+      "type": "page",
+      "layout": "default",
+      "style": {
+        "navigationBarTitleText": "",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/my/index",
+      "type": "page",
+      "layout": "tabbar",
+      "style": {
+        "navigationBarTitleText": "我的",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/otherPages/EducationSys/index",
+      "type": "page",
+      "layout": "default",
+      "style": {
+        "navigationBarTitleText": "教务系统"
+      }
+    },
+    {
+      "path": "pages/otherPages/SelectClassSys/index",
+      "type": "page",
+      "layout": "default",
+      "style": {
+        "navigationBarTitleText": "选课系统"
+      }
+    },
+    {
+      "path": "pages/otherPages/SmartPlatform/index",
+      "type": "page",
+      "layout": "default",
+      "style": {
+        "navigationBarTitleText": "智慧考核平台"
+      }
+    },
+    {
+      "path": "pages/otherPages/baseService/view/bookSelect",
+      "type": "page",
+      "layout": "default",
+      "style": {
+        "navigationBarTitleText": "图书借阅"
+      }
+    },
+    {
+      "path": "pages/otherPages/baseService/view/classRoomApplication",
+      "type": "page",
+      "layout": "default",
+      "style": {
+        "navigationBarTitleText": "教室申请"
+      }
+    },
+    {
+      "path": "pages/otherPages/baseService/view/oneCardTo",
+      "type": "page",
+      "layout": "default",
+      "style": {
+        "navigationBarTitleText": "一卡通"
+      }
+    },
+    {
+      "path": "pages/otherPages/baseService/view/patentApplication",
+      "type": "page",
+      "layout": "default",
+      "style": {
+        "navigationBarTitleText": "专利申请"
+      }
+    },
+    {
+      "path": "pages/otherPages/commonUse/views/myClassExcel",
+      "type": "page",
+      "layout": "default",
+      "style": {
+        "navigationBarTitleText": "我的课表"
+      }
+    },
+    {
+      "path": "pages/otherPages/commonUse/views/myHomework",
+      "type": "page",
+      "layout": "default",
+      "style": {
+        "navigationBarTitleText": "我的作业"
+      }
+    },
+    {
+      "path": "pages/otherPages/commonUse/views/qualiyAssessment",
+      "type": "page",
+      "layout": "default",
+      "style": {
+        "navigationBarTitleText": "素质测评"
+      }
+    },
+    {
+      "path": "pages/otherPages/commonUse/views/scanToSign",
+      "type": "page",
+      "layout": "default",
+      "style": {
+        "navigationBarTitleText": "扫码签到"
+      }
+    },
+    {
+      "path": "pages/otherPages/operateSys/views/financialPay",
+      "type": "page",
+      "layout": "default",
+      "style": {
+        "navigationBarTitleText": "财务缴费"
+      }
+    },
+    {
+      "path": "pages/otherPages/operateSys/views/laboratoryManage",
+      "type": "page",
+      "layout": "default",
+      "style": {
+        "navigationBarTitleText": "实验室管理系统"
+      }
+    },
+    {
+      "path": "pages/otherPages/SmartPlatform/views/inClassAssessment",
+      "type": "page",
+      "layout": "default",
+      "style": {
+        "navigationBarTitleText": "随堂考核"
+      }
+    },
+    {
+      "path": "pages/otherPages/SmartPlatform/views/subView/finishedExam",
+      "type": "page",
+      "layout": "default",
+      "style": {
+        "navigationBarTitleText": "sadsa",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/otherPages/SmartPlatform/views/subView/startExam",
+      "type": "page",
+      "layout": "default",
+      "style": {
+        "navigationBarTitleText": "测试"
+      }
+    }
+  ],
+  "subPackages": []
+}
